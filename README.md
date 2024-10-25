@@ -3,6 +3,18 @@
 A responsive game catalog, with the options of adding and deleting items from it.
 Using firestore database, firebase cloud functions and react.
 
+## How to access page
+
+```
+App is deployed under https://llschuster.github.io/game_catalog/
+```
+
+For local installation (note: adding and deleting will return cors errors)
+```bash
+(cd client && npm install && npm run start)
+go to localhost:6969
+```
+
 ## structure
 ```
 client folder: contains all frontend code
